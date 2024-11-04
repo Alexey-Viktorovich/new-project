@@ -1,0 +1,56 @@
+{
+  "localeENG": {
+    "catalogpage": {
+      "categoryText": "Category",
+      "categorys": [
+        {
+          "id": 1,
+          "categoryName": "Growbox Stells Chipboard",
+          "categoryId": "01",
+          "categoryImg": "./img/01.jpg"
+        },
+        {
+          "id": 2,
+          "categoryName": "Kits in Pirate Box substrate growlers",
+          "categoryId": "02",
+          "categoryImg": "./img/02.jpg"
+        },
+        {
+          "id": 3,
+          "categoryName": "Growboxes Royal Room Classic",
+          "categoryId": "03",
+          "categoryImg": "./img/03.jpg"
+        }
+      ],
+      "items": [
+        {
+          "id": 1,
+          "title": "GrowBro 300 LED luminaire",
+          "titledesc": "Seoul Semiconductors 300W diode LED lamp with 3 sensors",
+          "img": "01",
+          "img1": "011",
+          "img2": "0111",
+          "category": "01"
+        },
+        {
+          "id": 2,
+          "title": "Climate controller for greenhouses and grow boxes",
+          "titledesc": "Greenwitch standard controller - upgraded version for advanced users",
+          "img": "02",
+          "img1": "022",
+          "img2": "0222",
+          "category": "02"
+        },
+        {
+          "id": 3,
+          "title": "GrowBro 150 LED luminaire",
+          "titledesc": "LED diode lamp by Seoul Semiconductors with 3 sensors and a camera",
+          "img": "03",
+          "img1": "033",
+          "img2": "0333",
+          "category": "03"
+        }
+      ]
+    }
+  }
+}

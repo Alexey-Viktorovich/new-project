@@ -1,0 +1,120 @@
+.contacts-header-img {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.contacts-header-img h2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.contacts-img-div{
+    width: 90%;
+}
+
+.contacts-img-div img{
+    max-width: 100%;
+}
+
+.contacts-text {
+    max-width: 45%;
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 5%;
+    padding-top: 30px;
+}
+
+.contacts-text li {
+    list-style-type: none;
+    }
+
+.contacts-text ul {
+    margin-left: 0;
+    padding-left: 0;
+    }
+
+.contacts-text-li-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contacts-text-li-div-div {
+    margin-right:20px;
+}
+
+.align-icon {
+    text-align: center;
+}
+
+.align-icon-div {
+    margin-bottom: 10px;
+}
+
+.align-icon-div p {
+    font-size: 18px;
+    font-family: 'Poiret One';
+    color: #565656;
+    margin-bottom: 0;
+}
+
+.align-icon-p {
+    font-size: 20px;
+    font-family: 'Poiret One';
+    color: #565656;
+}
+
+.align-icon-p2 {
+    font-size: 18px;
+    color: #565656;
+}
+
+@media screen and (max-width: 1023px) {
+    .contacts-text{
+        margin: 0;
+        padding-left: 45px;
+        padding-top: 25px;
+        max-width: 50%;
+    }
+
+    .align-icon-p {
+        font-size: 16px;
+    }
+
+    .align-icon-p2 {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .contacts-header-img h2 {
+        font-size: 20px;
+    }
+
+    .contacts-text{
+        max-width: 100%;
+        padding-left: 45px;
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .contacts-header-img h2 {
+        font-size: 16px;
+    }
+
+    .align-icon-p {
+        font-size: 15px;
+    }
+
+    .align-icon-p2 {
+        font-size: 13px;
+    }
+
+    .contacts-text {
+        padding-left: 30px;
+    }
+}

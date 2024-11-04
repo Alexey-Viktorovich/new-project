@@ -1,0 +1,129 @@
+/*======*/
+.total-block {
+    margin-top: 70px;
+    height: max-content;
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+
+.total-header {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid #9a9a9a;
+}
+
+.total-header-col {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: #3C4858;
+}
+
+.total-img-block {
+    padding: 25px;
+}
+
+.total-img-block1 {
+    padding: 25px;
+}
+
+.total-img {
+    display: flex;
+    max-width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+.total-img-div{
+    max-width: 100%;
+}
+
+.total-img-div img{
+    max-width: 100%;
+}
+
+.total-text {
+    max-width: 60%;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 5%;
+}
+/*======*/
+
+tr {
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(128, 128, 127);
+}
+
+@media screen and (max-width: 1023px) {
+/*======*/
+    .total-header {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-bottom: 1px solid #9a9a9a;
+    }
+
+    .total-img {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .total-img-block {
+        flex-direction: column-reverse;
+        padding: 25px 5px;
+    }
+
+    .total-img-block1 {
+        flex-direction: column;
+        padding: 25px 5px;
+    }
+
+    .total-img-div {
+        width: 60%;
+    }
+
+    .total-text {
+        max-width: 100%;
+        padding-top: 25px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+/*======*/
+}
+
+@media screen and (max-width: 720px) {
+/*======*/
+    .total-img {
+        max-width: 100%;
+    }
+
+    .total-img-div {
+        width: 60%;
+    }
+/*======*/
+}
+
+@media screen and (max-width: 600px) {
+    .total-img-div {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .total-img-div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+/*======*/
+    .total-img {
+        max-width: 100%;
+        padding: 0 10px;
+        margin: 0;
+    }
+/*======*/
+}
